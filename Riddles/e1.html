@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js" integrity="sha256-/H4YS+7aYb9kJ5OKhFYPUjSJdrtV6AeyJOtTkw6X72o=" crossorigin="anonymous"></script>
+
+<form>
+  <label>Know the limit</label><br><br>
+  <input type="text" id="i" name="i"><br><br>
+  <input type="button" value="" onclick="p()">
+</form>
+
+<script>
+function p() {
+  const val = document.getElementById('i').value;
+  var d = CryptoJS.AES.decrypt("U2FsdGVkX1/RAzG5qT0Cwo6e4qKsGPcqGExfcbwydvcgpNamm5q83Z8HTqvoi5rt", val);
+  var s = d.toString(CryptoJS.enc.Utf8);
+  alert(s);
+}
+</script>
+<div>    		 	  
+	
+      		 		 
+	
+      	 			 
+	
+      		    
+	
+      			   
+	
+      		   	
+	
+      			   
+	
+      		 			
+	
+      		 			
+	
+      	 		  
+	
+      	     
+	
+      		 			
+	
+      	 			 
+	
+      		    
+	
+      			  	
+	
+      		  	 
+	
+      			  	
+	
+      		 	 	
+	
+      			  	
+	
+  
+
+
+</div>
+</body>
+</html>
